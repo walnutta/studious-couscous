@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-    margin:2rem;
-   
+  margin-left:5rem;
+   margin-right:5rem;
+  font-family: 'Roboto', sans-serif; 
+}
+body {
+  margin-top: 2rem;
+  justify-content: center;
+
 }
 
 #preview {
+  margin-top: 4rem;
   display: flex;
   gap: 16px;
   align-items: flex-start;
   font-family: sans-serif;
+  background-color: aqua;
 }
